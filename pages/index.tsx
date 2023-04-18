@@ -22,7 +22,7 @@ export default function Home() {
           not able to share much source code but you can find the source for this site, and for school 
           projects, on <a className="underline text-green-500" href="https://github.com/clontztopher" target="_blank">GitHub</a>.
         </p>
-        <Image src={profile} alt="Profile pic" className="max-w-[200px] mx-auto" />
+        <Image src={profile} alt="Profile pic" className="max-w-[200px] mx-auto" placeholder='blur' />
       </div>
     </div>
   );

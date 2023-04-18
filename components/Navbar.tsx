@@ -20,21 +20,21 @@ export default function Navbar() {
 
     return (
         <nav className="py-6 fixed bottom-0 bg-slate-700 w-full text-white font-mono">
-            <div className="container mx-auto flex justify-between px-6">
+            <div className="container mx-auto flex justify-between px-6 max-w-2xl">
                 <div>
-                    <span className="block text-slate-400 text-sm">Previous</span>
+                    <span className="block text-slate-400 text-sm invisible sm:visible">{prevRoute[1]}</span>
                     <button 
                         className="underline decoration-slate-500 decoration-4 underline-offset-4 hover:text-green-300 hover:decoration-green-300" 
                         onClick={() => router.push(prevRoute[0])}>
-                            {prevRoute[1]}
+                            Previous
                     </button>
                 </div>
-                <div>
-                    <span className="block text-slate-400 text-sm">Next</span>
+                <div className="text-right">
+                    <span className="block text-slate-400 text-sm invisible sm:visible">{nextRoute[1]}</span>
                     <button 
                         className="underline decoration-slate-500 decoration-4 underline-offset-4 hover:text-green-300 hover:decoration-green-300" 
                         onClick={() => router.push(nextRoute[0])}>
-                            {nextRoute[1]}
+                            Next
                     </button>
                 </div>
             </div>

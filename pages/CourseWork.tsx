@@ -4,7 +4,7 @@ import javafxScreenshot from '@/public/inventory-manager-screenshot.jpg';
 
 export default function CourseWork() {
     return (
-        <div className="max-w-2xl mx-auto">
+        <div>
             <h2 className="mb-4 font-mono font-bold leading-8 text-xl text-slate-500">Software Development Course Work</h2>
             <p className="mb-4 text-slate-700">
                 After working on websites and apps for a number of years I decided to go back to school for a degree in Software Development, which I 
@@ -14,7 +14,7 @@ export default function CourseWork() {
                 &nbsp;<a className="underline text-green-500" href="https://github.com/clontztopher" target="_blank">GitHub</a> profile.
             </p>
             <h3 className="mb-8 text-slate-500 font-mono font-bold">Android</h3>
-            <Image src={androidScreenshot} alt="Android screenshots" className="mb-8"/>
+            <Image src={androidScreenshot} alt="Android screenshots" className="mb-8" placeholder='blur' />
             <h3 className="mb-4 text-slate-500 font-mono font-bold">Course Planning Tool</h3>
             <ul className="mb-8 pl-4 text-slate-700 list-disc list-outside">
                 <li>An app for organizing courses, instructors, terms, tests and notes.</li>
@@ -28,7 +28,7 @@ export default function CourseWork() {
                 <li><a className="underline" href="https://github.com/clontztopher/skill-manager" target="_blank">Github Page</a></li>
             </ul>
             <h3 className="mb-8 text-slate-500 font-mono font-bold">Java FX</h3>
-            <Image src={javafxScreenshot} alt="Java FX screenshots" className="mb-8"/>
+            <Image src={javafxScreenshot} alt="Java FX screenshots" className="mb-8" placeholder='blur' />
             <ul className="mb-8 pl-4 text-slate-700 list-disc list-outside">
                 <li>A basic inventory manager and a scheduling application.</li>
                 <li><a className="underline" href="https://github.com/clontztopher/wgu-inventory-manager" target="_blank">Inventory Manager Github Page</a></li>

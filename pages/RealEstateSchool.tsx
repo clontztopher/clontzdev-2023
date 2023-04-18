@@ -3,7 +3,7 @@ import siteScreenshot from '@/public/csre-screenshot.jpg';
 
 export default function RealEstateSchool() {
     return (
-        <div className="max-w-2xl mx-auto">
+        <div>
             <h2 className="mb-4 font-mono font-bold leading-8 text-xl text-slate-500">Real Estate School</h2>
             <h3 className="mb-4 font-mono font-bold leading-8 text-slate-500">Website</h3>
             <p className="mb-8 text-slate-700">
@@ -12,7 +12,7 @@ export default function RealEstateSchool() {
                 for the site. I also worked with an internal team and an external consultant to set up eCommerce tracking 
                 for a complex checkout process.
             </p>
-            <Image src={siteScreenshot} alt="Real estate education home screen" className="mb-8"/>
+            <Image src={siteScreenshot} alt="Real estate education home screen" className="mb-8" placeholder='blur' />
             <h3 className="mb-4 font-mono font-bold leading-8 text-slate-500">Mobile Application</h3>
             <p className="mb-4 text-slate-700">
                 Another invaluable experience was being given the task of bringing a mobile flashcard application in-house. I first built 

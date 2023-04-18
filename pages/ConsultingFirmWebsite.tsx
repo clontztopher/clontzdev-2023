@@ -3,7 +3,7 @@ import screenshot from '@/public/consulting-screenshot.jpg';
 
 export default function ConsultingFirmWebsite() {
     return (
-        <div className="max-w-2xl mx-auto">
+        <div>
             <h2 className="mb-4 font-mono font-bold leading-8 text-xl text-slate-500">Consulting Firm Website</h2>
             <p className="mb-4 text-slate-700">
                 One agency project I had the pleasure to work on was for a regional consulting firm. I was the sole developer 
@@ -19,7 +19,7 @@ export default function ConsultingFirmWebsite() {
                 <li>Used Advanced Custom Fields to allow for granular editing of content.</li>
                 <li>Used CSS grid to implement complex layout with responsive alterations.</li>
             </ul>
-            <Image src={screenshot} alt="Consulting site screenshot" />
+            <Image src={screenshot} alt="Consulting site screenshot" placeholder='blur' />
         </div>
     );
 }

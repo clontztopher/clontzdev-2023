@@ -3,7 +3,7 @@ import screenshot from '@/public/ccc-screenshot.jpg';
 
 export default function CommunityCollegeWebsite() {
     return (
-        <div className="max-w-2xl mx-auto">
+        <div>
             <h2 className="mb-4 font-mono font-bold leading-8 text-xl text-slate-500">Community College Website</h2>
             <p className="mb-4 text-slate-700">
                 While working at a Webby Award-winning agency, I was lead frontend developer on a website 
@@ -18,7 +18,7 @@ export default function CommunityCollegeWebsite() {
                 <li>Implemented extensive design configuration changes based on screen size using flexbox and CSS grid functionalities.</li>
                 <li>Implemented &quot;mega nav&quot; navigation menu with sub menus and graphics.</li>
             </ul>
-            <Image src={screenshot} alt="Mega nav screenshot" />
+            <Image src={screenshot} alt="Mega nav screenshot" placeholder='blur' />
         </div>
     );
 }
